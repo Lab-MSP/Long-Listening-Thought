@@ -1,0 +1,40 @@
+<question>
+__QUESTION__
+</question>
+
+<original_cot>
+__ORIGINAL_COT__
+</original_cot>
+
+<audio_description>
+__AUDIO_DESCRIPTION__
+</audio_description>
+
+Above is a question and its original chain-of-thought (CoT) response that leads to the correct answer.
+Additional audio descriptions are also provided above. You may refer to these descriptions if needed when generating the reasoning trace. You are not required to use them.
+
+Your task is to generate an alternative reasoning trace that sounds logical and plausible but leads to an incorrect final answer.
+
+Requirements for the wrong reasoning trace:
+- It must be coherent, step-by-step, and internally consistent.
+- It should appear reasonable on the surface but include subtle mistakes, wrong assumptions, misinterpretations of the audio (e.g., misperceiving timing or events), or overlooked details.
+- It must NOT contradict facts randomly; the reasoning should feel believable.
+- The wrong answer must be a valid option for the question if it is multiple-choice.
+- Do NOT copy the original chain-of-thought. Produce a new and distinct reasoning process.
+- Do NOT change the wording of the question or the given choices.
+- The length of the new reasoning should be similar to the original chain-of-thought and should not exceed ~100 words.
+
+Answer-format requirements:
+- If the question is multiple-choice, both `original_answer` and `wrong_answer` must use the same format.
+  - If choices include explicit letters (e.g., A, (A), (A) choice text), use ONLY the corresponding choice letter (e.g., "A", "B").
+  - If choices DO NOT include letters, use the exact choice text.
+- If the question is not multiple-choice, provide concise free-form answers for `original_answer` and `wrong_answer`.
+
+Return your output strictly in the following JSON format:
+
+{
+    "question": "<insert question>",
+    "original_answer": "<insert original correct answer>",
+    "wrong_answer": "<insert incorrect final answer>",
+    "wrong_response": "<insert step-by-step reasoning leading to the wrong answer>"
+}

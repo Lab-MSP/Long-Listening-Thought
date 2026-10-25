@@ -1,0 +1,7 @@
+[submodule "data/third_party/PretrainedSED"]
+	path = data/third_party/PretrainedSED
+	url = https://github.com/fschmid56/PretrainedSED.git
+[submodule "data/third_party/demucs_batch"]
+	path = data/third_party/demucs_batch
+	url = https://github.com/jaeyeonkim99/demucs_batch-multigpu.git
+	branch = llt

@@ -1,0 +1,11 @@
+# Stage1 chord recognition (autochord): extract_chord.py
+# Exported from the conda env used for the paper ('chord'). Top-level packages only.
+name: llt_stage1_chord
+channels:
+  - conda-forge
+dependencies:
+  - python=3.8
+  - numpy  # vamp (autochord dep) setup.py imports numpy at build time
+  - pip
+  - pip:
+      - autochord==0.1.4

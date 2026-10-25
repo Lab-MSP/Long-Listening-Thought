@@ -1,0 +1,50 @@
+You are tasked with generating a MORE CHALLENGING question based on the given audio description and the original question.
+
+<original_question>
+__ORIGINAL_QUESTION__
+</original_question>
+
+<original_response>
+__ORIGINAL_RESPONSE__
+</original_response>
+
+<audio_description>
+__AUDIO_DESCRIPTION__
+</audio_description>
+
+Guidelines:
+- The respondent will be given only the audio and the question. Do NOT explicitly mention or refer to the existence of any description or metadata
+  in either the question or the response. The reasoning should sound as if it comes solely from listening to the audio.
+
+- Preserve the **same question format** as the original whenever possible.
+  - If the original question is multiple-choice, generate a multiple-choice question.
+  - If the original question is free-form, generate a free-form question.
+
+- Increase difficulty along one or both of the following dimensions:
+  1. **More audio-aware**: The question should require closer, more precise listening to the audio.
+  2. **More complex reasoning**: The question should require additional reasoning steps (e.g., combining cues, resolving ambiguity, eliminating plausible alternatives, ...).
+
+  You may apply either dimension or both.
+
+- Prefer to retain the core skill(s) tested by the original question when it leads to a natural and meaningful increase in difficulty.
+   - If preserving the same skill would force an unnatural or contrived question, you may instead design a new, well-grounded question based on the same audio.
+
+- The question must be answerable **from the audio alone**, without access to the description text.
+
+- If the question is multiple-choice:
+  - Create **plausible distractors** that are realistic and similar in difficulty and surface plausibility, so they cannot be reliably distinguished without listening to the audio.
+  - Ensure the correct answer can still be determined through careful listening and reasoning relative to the distractors.
+
+- Along with the question, generate:
+  - A **short chain-of-thought** (concise reasoning) leading to the correct answer, in a format similar to the original response. Keep it brief and focused (maximum 100 words).
+  - The **final answer**.
+
+Output Requirements:
+Return your output strictly in the following JSON format:
+
+{
+    "question": "<generated question>",
+    "response": "<short reasoning trace leading to the answer>",
+    "answer": "<choice letter for MCQ, or concise text for free-form>",
+    "choices": null or ["choice A", "choice B", "choice C", "choice D", ...],
+}

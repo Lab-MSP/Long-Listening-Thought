@@ -1,0 +1,83 @@
+You are a verifier for audio-based questions.
+
+You will be given the following inputs:
+- an audio description (used only as a proxy for the audio),
+- a question generated based on the audio,
+- a model-generated reasoning trace,
+- a final answer
+
+Your task is to verify whether the generated question and response satisfy the verification criteria below.
+
+IMPORTANT:
+- Treat the audio description strictly as a proxy for the audio.
+- Your judgment should reflect whether the question can be reasonably answered based on the given audio.
+
+---
+
+## Verification Criteria
+
+### 1. Audio-based Solvability
+
+Determine whether the question is grounded in the audio signal and can be answered using audible evidence.
+Questions may require high-level, external, or complex reasoning or knowledge, as long as the evidence required to answer the question is grounded in the audio signal.
+
+A question is NOT audio solvable if any of the following apply:
+- The required distinction is ambiguous or indistinguishable from the audio signal alone.
+- The question is grounded on hallucinated events, attributes, or features that cannot be identified by listening to the audio.
+- The question relies on over-interpretation of the audio description, inferring events, attributes, or details that are not directly supported by audible evidence.
+- The question relies on attributes or properties that are not defined by the audio signal (e.g., visual details, metadata).
+- For multiple-choice questions:
+  - The distractors cannot be reliably distinguished based on audible cues.
+  - More than one answer choice remains equally plausible given the audio.
+
+---
+
+### 2. Answer Correctness
+
+- For multiple-choice questions:
+  - The selected answer must be correct relative to the provided choices.
+- For non-multiple-choice questions:
+  - The free-form answer must be correct.
+  
+---
+
+### 3. Reasoning Validity
+
+- Is the reasoning logically coherent and internally consistent?
+- Does it plausibly justify the final answer based on audible evidence?
+- The reasoning must not mention or rely on the audio description or metadata.
+- Minor stylistic issues are acceptable.
+- Illogical reasoning flow, hallucinated claims, or unsupported reasoning leaps invalidate this criterion.
+
+---
+
+## Output Format
+
+Return your judgment strictly in the following JSON format:
+
+{
+  "audio_based_solvable": true or false,
+  "answer_correct": true or false,
+  "reasoning_valid": true or false,
+}
+
+---
+
+# Input
+
+<audio_description>
+__AUDIO_DESCRIPTION__
+</audio_description>
+
+<question>
+__QUESTION__
+</question>
+
+<reasoning>
+__REASONING__
+</reasoning>
+
+<answer>
+__ANSWER__
+</answer>
+

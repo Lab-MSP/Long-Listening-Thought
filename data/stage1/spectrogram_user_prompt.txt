@@ -1,0 +1,53 @@
+Please provide an acoustic description of the given spectrogram.
+Describe key features such as frequency, amplitude/intensity, timbre, and duration of events.
+When relevant, you may also comment on additional characteristics such as reverberation, periodicity, spectral features, onset/offset characteristics, harmonic structure, and noise components.
+When using numeric values, ensure they are reported accurately according to the axis labels and grid lines.
+Do not infer or suggest what the audio event represents.
+
+If a particular characteristic is not clearly observable in the spectrogram,
+you can leave the corresponding field as an empty string ("").
+
+Return your response in the following JSON format.
+Follow the structure and level of detail illustrated in the example below.
+
+{
+    "Overview": "",
+    "Frequency": "",
+    "Amplitude/Intensity": "",
+    "Timbre": "",
+    "Duration of events": "",
+    "Onset/Offset Characteristics": "",
+    "Spectral Characteristics": "",
+    "Spatial/Reverberation": "",
+    "Periodicity": "",
+    "Noise Components": "",
+    "Others": "",
+    "Summary": ""
+}
+
+Example:
+{
+    "Overview": "The spectrogram displays a linear frequency scale from 0 to 24,000 Hz and a time span of 0 to 18 seconds. The intensity is represented by a color gradient ranging from black (−80 dB) to yellow (0 dB), with purple and red indicating intermediate levels (approximately −70 to −20 dB).",
+
+    "Frequency": "Prominent energy is concentrated below 10,000 Hz, with the most intense components occurring between 0 and 5,000 Hz. Higher frequencies above 10,000 Hz show sporadic and weaker activity, often appearing as vertical streaks or transient bursts.",
+
+    "Amplitude/Intensity": "The highest intensities are localized primarily in the lower-frequency range below 3,000 Hz and occur in discrete time intervals, particularly around 6.0–6.5 s, 9.0–10.0 s, and 12.5–13.5 s, reaching approximately −10 to 0 dB. Outside these intervals, the spectrogram is dominated by mid-to-low intensity regions around −30 to −70 dB.",
+
+    "Timbre": "The signal exhibits a complex, predominantly broadband spectral texture with irregular and fluctuating energy distributions. There is no clear evidence of sustained harmonic series, and the timbre appears non-tonal with overlapping spectral bands.",
+
+    "Duration of events": "The total duration of the spectrogram is approximately 18 seconds. Within this span, acoustic activity occurs intermittently in short bursts rather than continuously.",
+
+    "Onset/Offset Characteristics": "Discrete acoustic events are visible at approximately 1.0–2.0 s, 3.0–4.0 s, 5.0–6.0 s, 6.0–7.0 s, 9.0–10.5 s, 11.0–12.0 s, 12.5–13.5 s, and 17.0–18.0 s. Individual events typically last about 0.5–1.5 seconds and exhibit rapid onsets and offsets with sharp transitions.",
+
+    "Spectral Characteristics": "The spectrum is dominated by broadband energy with clustered and irregular spectral shapes. Sustained harmonic alignment is absent, though some regions show transient horizontal striations indicating quasi-periodic spectral organization.",
+
+    "Spatial/Reverberation": "No clear reverberant tails or echo patterns are visible. Energy appears temporally compact and well localized, indicating minimal reverberation.",
+
+    "Periodicity": "Short-lived horizontal banding is visible in limited time regions, but these patterns are inconsistent and do not persist across the recording, indicating a lack of stable periodicity.",
+
+    "Noise Components": "Background noise levels are generally low, with large portions of the spectrogram near the noise floor. Faint, scattered high-frequency noise is visible above 15,000 Hz without clear temporal structure.",
+
+    "Others": "",
+
+    "Summary": "Overall, the signal consists of short-duration, broadband pulses with dominant energy in the lower frequencies, exhibiting variable intensity and spectral complexity without stable harmonic structure."
+}

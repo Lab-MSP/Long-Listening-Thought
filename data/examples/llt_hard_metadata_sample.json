@@ -1,0 +1,272 @@
+{
+  "YouTube8M/4Bftz5jhHFY_23_10_hard": {
+    "wav_path": "YouTube8M/4Bftz5jhHFY_23_10.mp3",
+    "duration": 10.0,
+    "original_key": "YouTube8M/4Bftz5jhHFY_23_10",
+    "question": "In what context is this audio most likely occurring, given the juxtaposition of an upbeat jazz-funk instrumental, a clear instructional voice saying 'Und unter den Eischnee heben,' and an abrupt, harsh electronic buzzer immediately following the speech? Choose one among the following options: (A) live cooking demonstration, (B) fitness app tutorial, (C) professional kitchen with ambient music, (D) interactive culinary learning app",
+    "response": "The upbeat, steady jazz-funk track and precise German instruction suggest a guided culinary task, but the abrupt, synthetic buzzer—lacking natural reverb or environmental noise—indicates a digital feedback system, not a real-world setting. This combination of polished music, clear voiceover, and instant electronic error signal is characteristic of an interactive app designed for step-by-step learning, where incorrect or timed actions trigger immediate feedback.",
+    "answer": "D",
+    "is_mcq": true,
+    "choices": [
+      "live cooking demonstration",
+      "fitness app tutorial",
+      "professional kitchen with ambient music",
+      "interactive culinary learning app"
+    ]
+  },
+  "YouTube8M/rQj-Y6635ts_116_10_hard": {
+    "wav_path": "YouTube8M/rQj-Y6635ts_116_10.mp3",
+    "duration": 10.0,
+    "original_key": "YouTube8M/rQj-Y6635ts_116_10",
+    "question": "Which of the following best describes the rhythmic foundation and harmonic texture that underpin the lead vocal throughout the audio? Choose one among the following options:\n(A) A steady four-on-the-floor beat with minor-key synth arpeggios and sub-bass pulses\n(B) A swung hip-hop groove with sampled piano chords and vinyl crackle\n(C) A syncopated trap rhythm with detuned analog bass and ambient pads\n(D) A waltz-time acoustic strumming pattern with harmonic vocal layering",
+    "response": "The audio features a relentless, steady kick on every beat with crisp snare on 2 and 4, confirming a four-on-the-floor pulse. Synth arpeggios rise and fall in sync with chord changes (D:min, G:min, Eb:maj), while a sub-bass line underpins the low end without harmonic complexity. No acoustic elements, swung rhythms, or vinyl artifacts are present. The rhythmic precision and harmonic progression align exclusively with option A.",
+    "answer": "A",
+    "is_mcq": true,
+    "choices": [
+      "A) A steady four-on-the-floor beat with minor-key synth arpeggios and sub-bass pulses",
+      "B) A swung hip-hop groove with sampled piano chords and vinyl crackle",
+      "C) A syncopated trap rhythm with detuned analog bass and ambient pads",
+      "D) A waltz-time acoustic strumming pattern with harmonic vocal layering"
+    ]
+  },
+  "YouTube8M/CTiJe66fIr8_27_10_hard": {
+    "wav_path": "YouTube8M/CTiJe66fIr8_27_10.mp3",
+    "duration": 10.0,
+    "original_key": "YouTube8M/CTiJe66fIr8_27_10",
+    "question": "What is the most likely context of this audio, given the aggressive metal instrumentation, sudden vocal shout, and abrupt cutoff followed by an electronic buzz? Choose one among the following options: (A) A live concert recording with audience noise, (B) A film trailer for an action movie, (C) A music video intro for a death metal band, (D) A car race with synchronized soundtrack.",
+    "response": "The audio features studio-grade, high-intensity death metal with no ambient sounds or crowd noise, eliminating live concert settings. The abrupt cutoff and synthetic buzz are not typical of car races or general action trailers, which usually sustain tension or include environmental cues. The structure—intense musical burst, explicit vocal, then artificial endpoint—is a hallmark of curated music video intros designed for maximum impact, aligning with extreme metal aesthetics.",
+    "answer": "C",
+    "is_mcq": true,
+    "choices": [
+      "A live concert recording with audience noise",
+      "A film trailer for an action movie",
+      "A music video intro for a death metal band",
+      "A car race with synchronized soundtrack"
+    ]
+  },
+  "YouTube8M/dLjXsctwJi0_86_10_hard": {
+    "wav_path": "YouTube8M/dLjXsctwJi0_86_10.mp3",
+    "duration": 10.0,
+    "original_key": "YouTube8M/dLjXsctwJi0_86_10",
+    "question": "What can be deduced about the environment and purpose of the speaker's message based on the audio elements and speech content?",
+    "response": "The speaker's voice is dry and intimate, with no reverberation, indicating a soundproofed studio rather than a classroom. The rhythmic, periodic low hum and impulsive transients occurring every second suggest an electronic device—likely an interactive toy—is actively producing feedback or activation sounds in sync with her speech. Her emphasis on 'touch points' and 'ways to play' aligns with the pulsed audio cues, implying the product is being demonstrated in real-time interaction. The abrupt cut-off confirms this is a promotional excerpt, not a live demonstration.",
+    "answer": "The environment is a controlled studio recording, and the purpose is to demonstrate an interactive educational toy whose electronic feedback is synchronized with the speaker's narration.",
+    "is_mcq": false,
+    "choices": null
+  },
+  "YouTube8M/yNnjVhJ_PI0_91_10_hard": {
+    "wav_path": "YouTube8M/yNnjVhJ_PI0_91_10.mp3",
+    "duration": 10.0,
+    "original_key": "YouTube8M/yNnjVhJ_PI0_91_10",
+    "question": "Based on the audio, what is the most likely context of the speakers' conversation? Choose one among the following options: (A) Two tourists discussing a scenic view from a train window, (B) Railway maintenance staff confirming a signal protocol, (C) Friends debating regional accents during a commute, (D) A radio interview about British rail history.",
+    "response": "The persistent, rhythmic clatter of train wheels and low-frequency rumble indicate an outdoor train environment. The dialogue centers on setting 'a white one,' a term consistent with railway signaling procedures, not casual observation or historical discussion. The speakers' calm, technical exchange with mutual affirmation ('Yeah, yeah, yeah') suggests professional familiarity, not tourism or interview dynamics. No music, announcements, or tourist chatter are present, ruling out other options.",
+    "answer": "B",
+    "is_mcq": true,
+    "choices": [
+      "Two tourists discussing a scenic view from a train window",
+      "Railway maintenance staff confirming a signal protocol",
+      "Friends debating regional accents during a commute",
+      "A radio interview about British rail history"
+    ]
+  },
+  "YouTube8M/QfPffMWqo4g_35_10_hard": {
+    "wav_path": "YouTube8M/QfPffMWqo4g_35_10.mp3",
+    "duration": 10.0,
+    "original_key": "YouTube8M/QfPffMWqo4g_35_10",
+    "question": "Based on the audio, which specific mechanical system is most likely operating, and what does its sequence of sounds suggest about its operational state? Choose one among the following options:\n(A) A malfunctioning industrial dryer undergoing an unbalanced load cycle\n(B) A commercial washing machine completing its spin-and-latch sequence\n(C) A hydraulic press in a factory shutting down after a single cycle\n(D) An HVAC system cycling between heating and ventilation modes",
+    "response": "The audio reveals a distinct sequence: a low hum indicating motor operation, followed by metallic latches, a heavy clunk, dragging/scraping, and a final sharp click—all occurring in a precise, repeatable pattern. The absence of speech, music, or irregular noise suggests routine operation, not failure. The timing and nature of impacts align with a washing machine’s spin cycle, door latch engagement, and drum stabilization, not press shutdowns or HVAC transitions. The consistent mechanical rhythm and lack of thermal or airflow cues rule out other options.",
+    "answer": "B",
+    "is_mcq": true,
+    "choices": [
+      "A malfunctioning industrial dryer undergoing an unbalanced load cycle",
+      "A commercial washing machine completing its spin-and-latch sequence",
+      "A hydraulic press in a factory shutting down after a single cycle",
+      "An HVAC system cycling between heating and ventilation modes"
+    ]
+  },
+  "YouTube8M/XEXkjUxY1lQ_102_10_hard": {
+    "wav_path": "YouTube8M/XEXkjUxY1lQ_102_10.mp3",
+    "duration": 10.0,
+    "original_key": "YouTube8M/XEXkjUxY1lQ_102_10",
+    "question": "Which scenario best aligns with the emotional arc and sonic evolution of this audio, considering its progression from a mysterious, reverberant ambiance to a sudden monumental event and abrupt silence? Choose one among the following options: (A) A cathedral organ performance interrupted by thunder, (B) An ancient tomb opening in a fantasy epic, (C) A symphony orchestra tuning up in a vast hall, (D) A digital AI interface booting up in a futuristic lab.",
+    "response": "The audio begins with a slow, minor-key synth pad and arpeggio in a cavernous reverb, evoking mystery. At 6.5s, a sudden, non-musical broadband rumble and metallic scrape—lacking harmonic structure—signals a physical, monumental event, not natural weather or mechanical noise. The crystalline chime enhances a magical reveal, and the abrupt cutoff creates narrative suspense. None of the other options capture this blend of fantasy, spatial grandeur, and non-musical sonic revelation.",
+    "answer": "B",
+    "is_mcq": true,
+    "choices": [
+      "A cathedral organ performance interrupted by thunder",
+      "An ancient tomb opening in a fantasy epic",
+      "A symphony orchestra tuning up in a vast hall",
+      "A digital AI interface booting up in a futuristic lab"
+    ]
+  },
+  "YouTube8M/DimqZLZMIyg_103_10_hard": {
+    "wav_path": "YouTube8M/DimqZLZMIyg_103_10.mp3",
+    "duration": 10.0,
+    "original_key": "YouTube8M/DimqZLZMIyg_103_10",
+    "question": "Based on the audio, which of the following best explains the abrupt transition from motorcycle engine sounds to a loud electronic buzz? Choose one among the following options: (A) A crowd cheering at a race ends with a sound system malfunction. (B) The recording was intentionally edited to censor or parody the engine noise. (C) A nearby power tool was activated as the motorcycle stopped. (D) The motorcycle’s electrical system failed, producing a feedback tone.",
+    "response": "The audio shows no crowd, music, or external devices—only engine revs, mechanical rattle, and a sudden, synthetic buzz with no ambient context. The buzz is monophonic, centrally placed, and lacks natural acoustic properties, indicating artificial insertion. The abrupt edit and absence of real-world cues suggest intentional post-production manipulation, likely for comedic or censorial effect.",
+    "answer": "B",
+    "is_mcq": true,
+    "choices": [
+      "A) A crowd cheering at a race ends with a sound system malfunction.",
+      "B) The recording was intentionally edited to censor or parody the engine noise.",
+      "C) A nearby power tool was activated as the motorcycle stopped.",
+      "D) The motorcycle’s electrical system failed, producing a feedback tone."
+    ]
+  },
+  "AudioSet/Yeb0BMDTEwnU_hard": {
+    "wav_path": "AudioSet/Yeb0BMDTEwnU.flac",
+    "duration": 10.0,
+    "original_key": "AudioSet/Yeb0BMDTEwnU",
+    "question": "What can be deduced about the nature of the object and the emotional dynamics between the speakers based on the timing, pitch, and acoustic characteristics of their utterances and accompanying sounds?",
+    "response": "The woman’s gentle, mid-to-high-pitched query 'What do you have?' is followed by the child’s rapid, high-pitched, upward-inflected response indicating excitement, not confusion. The sharp crack and hollow thud suggest a lightweight, brittle object—likely a party popper or toy—rather than something heavy or soft. Her drawn-out 'Oh' conveys amused surprise, not alarm, and her directive 'Bend down, Billy' is nurturing, not commanding. The child’s clipped, overlapping 'Let me get it' and jubilant, clipped 'Yay!' with slight clipping indicate unfiltered joy. The adult’s breathy chuckle confirms warmth. The electronic beep at the end implies a recorded or timed event, possibly a birthday ritual.",
+    "answer": "The object is likely a small, brittle birthday toy (e.g., a popper), and the interaction reflects a nurturing, emotionally warm dynamic marked by the child’s unfiltered excitement and the adult’s gentle, amused guidance.",
+    "is_mcq": false,
+    "choices": null
+  },
+  "AudioSet/YNp9pfK_DHFQ_hard": {
+    "wav_path": "AudioSet/YNp9pfK_DHFQ.flac",
+    "duration": 10.0,
+    "original_key": "AudioSet/YNp9pfK_DHFQ",
+    "question": "What is the most likely instructional goal of the tongue-clicking pattern heard in the audio? Choose the correct option from the following options:\n(A) To simulate the phonetic articulation of the Russian letter 'С'\n(B) To establish a rhythmic beat for language memorization\n(C) To test the listener's ability to distinguish phonemes in noisy conditions\n(D) To practice vocal stamina through repetitive sound production\nPlease think and reason about the input audio before you respond.",
+    "response": "The tongue clicks are sharply percussive and occur in distinct, deliberate bursts, immediately followed by spoken instructions linking them to placing the letter 'С'. The speaker explicitly connects the clicks to articulation, not rhythm or stamina. The absence of melodic or sustained tonality rules out musical or stamina-based purposes. The context is instructional, not diagnostic, eliminating option C. The direct verbal linkage confirms the clicks model tongue placement for /s/.",
+    "answer": "A",
+    "is_mcq": true,
+    "choices": [
+      "To simulate the phonetic articulation of the Russian letter 'С'",
+      "To establish a rhythmic beat for language memorization",
+      "To test the listener's ability to distinguish phonemes in noisy conditions",
+      "To practice vocal stamina through repetitive sound production"
+    ]
+  },
+  "AudioSet/YE2dJrPjrNUI_hard": {
+    "wav_path": "AudioSet/YE2dJrPjrNUI.flac",
+    "duration": 10.0,
+    "original_key": "AudioSet/YE2dJrPjrNUI",
+    "question": "Based on the shifting vocal tones, abrupt transitions, and musical context, what is the most likely intention behind the speaker’s ironic remark, 'I know nobody says that. I know that.'?",
+    "response": "The initial energetic, performative tone suggests a parody of advertising, but the sudden shift to a weary, dry delivery of the ironic line, paired with the abrupt cut and subsequent nostalgic pop music, indicates self-aware satire. The music’s upbeat, retro style reinforces the mockery of clichéd vacation marketing, implying the speaker is critiquing, not endorsing, the phrase’s forced enthusiasm.",
+    "answer": "To satirize the clichéd language of commercial travel advertising by contrasting it with ironic detachment and nostalgic pop culture.",
+    "is_mcq": false,
+    "choices": null
+  },
+  "AudioSet/YXXWMijifys4_hard": {
+    "wav_path": "AudioSet/YXXWMijifys4.flac",
+    "duration": 10.0,
+    "original_key": "AudioSet/YXXWMijifys4",
+    "question": "Given the acoustic environment and spoken content, what is the most likely setting for this interaction? Choose the correct option from the following options:\n(A) Indoor vehicle inspection station\n(B) Outdoor vehicle registration kiosk\n(C) Airport security checkpoint\n(D) Medical records intake desk",
+    "response": "The speech includes procedural verification of a vehicle's year ('2005?'), with clear, neutral tone and minimal background noise beyond intermittent wind and a faint electronic hum. Wind is present but inconsistent, suggesting proximity to an open door or garage rather than open air. No bird calls or distant traffic are audible during speech, ruling out outdoor kiosk. The dry acoustics and lack of reverberation point to a semi-enclosed, utilitarian indoor space. No medical or security terminology is present, eliminating other options.",
+    "answer": "A",
+    "is_mcq": true,
+    "choices": [
+      "Indoor vehicle inspection station",
+      "Outdoor vehicle registration kiosk",
+      "Airport security checkpoint",
+      "Medical records intake desk"
+    ]
+  },
+  "VGG/QgulXVz9o2Q_000017_hard": {
+    "wav_path": "VGG/QgulXVz9o2Q_000017.flac",
+    "duration": 10.004807256235827,
+    "original_key": "VGG/QgulXVz9o2Q_000017",
+    "question": "What does the abrupt shift in ambient sound suggest about the speaker's actions? Choose the correct option from the following options:\n(A) The speaker is pausing to adjust a car stereo setting\n(B) The speaker has stopped the vehicle near a natural water feature\n(C) The speaker is recording a podcast in a studio environment\n(D) The speaker is accelerating onto a highway",
+    "response": "The transition from车内低频引擎声到户外强烈流水声和风声，再回到机械轻响和静默，表明车辆曾停下，且停靠地点靠近自然水流。儿童兴奋的喊声与无回响的开放空间声学特征排除了室内或车内环境。流水声的失真和风噪的突然增强，表明麦克风暴露于户外，而非设备调整或加速。选项A、C、D均无法解释声学空间的剧烈转变。",
+    "answer": "B",
+    "is_mcq": true,
+    "choices": [
+      "The speaker is pausing to adjust a car stereo setting",
+      "The speaker has stopped the vehicle near a natural water feature",
+      "The speaker is recording a podcast in a studio environment",
+      "The speaker is accelerating onto a highway"
+    ]
+  },
+  "Freesound/468312_hard": {
+    "wav_path": "Freesound/468312.flac",
+    "duration": 19.0,
+    "original_key": "Freesound/468312",
+    "question": "What is the most likely purpose of the audio sequence? Choose the correct option from the following options:\n(A) A person is documenting a personal regret through symbolic actions\n(B) Someone is recording a step-by-step instructional guide for assembling a device\n(C) A child is playfully experimenting with household objects\n(D) A technician is testing the acoustics of a recording environment\nPlease think and reason about the input audio before you respond.",
+    "response": "The audio features a calm, methodical male voice giving precise Spanish instructions—'Tírala desde arriba' and 'Y que caiga abierto'—accompanied by repeated, deliberate mechanical clicks, thuds, and a resonant clack that match the described actions. The lack of emotion, presence of background hiss, and tightly timed sequence of object manipulation suggest a focused instructional recording, not emotional expression or play. The structured, repetitive nature of the actions and clear verbal cues point to an instructional context.",
+    "answer": "B",
+    "is_mcq": true,
+    "choices": [
+      "A person is documenting a personal regret through symbolic actions",
+      "Someone is recording a step-by-step instructional guide for assembling a device",
+      "A child is playfully experimenting with household objects",
+      "A technician is testing the acoustics of a recording environment"
+    ]
+  },
+  "DailyTalk/2125_hard": {
+    "wav_path": "DailyTalk/2125.flac",
+    "duration": 13.261020408163265,
+    "original_key": "DailyTalk/2125",
+    "question": "From the input spoken conversation, identify the subtle shift in emotional tone between John’s initial response and his final reply, and explain how the speaker’s vocal delivery supports this progression.",
+    "response": "John’s first response, 'Nothing,' is flat and detached, signaling emotional withdrawal. His later admission of disappointment is slow and subdued, revealing genuine regret. His final 'I hope so' is quieter and slightly hesitant, suggesting fragile optimism amid lingering sadness—contrasting his earlier defensiveness and showing a quiet vulnerability induced by the listener’s empathy.",
+    "answer": "John transitions from emotional withdrawal ('Nothing') to vulnerable hope ('I hope so'), with his vocal delivery shifting from flat and detached to slow, subdued, and hesitant, reflecting a softening of his emotional state in response to reassurance.",
+    "is_mcq": false,
+    "choices": []
+  },
+  "CochlScene/Restaurant_user0786_14879773_003_hard": {
+    "wav_path": "CochlScene/Restaurant_user0786_14879773_003.flac",
+    "duration": 10.0,
+    "original_key": "CochlScene/Restaurant_user0786_14879773_003",
+    "question": "What is the most likely reason for the woman’s unfinished utterance, 'Could you please…'? Choose the correct option from the following options:\n(A) She is overwhelmed by the emotional weight of the song\n(B) She is interrupted by an external disturbance\n(C) She is uncertain how to phrase a polite request\n(D) She is addressing a technical issue with the sound equipment\nPlease think and reason about the input audio before you respond.",
+    "response": "The woman’s speech is cut off mid-sentence, immediately following a sharp, percussive impact sound. This impact is acoustically distinct—sudden, high-intensity, and resonant—suggesting a physical disruption. The timing and context imply the disturbance prompted her to pause, likely to react to or address the noise, not due to emotional or linguistic hesitation. The reverent musical atmosphere makes emotional overwhelm unlikely, and there’s no evidence of equipment malfunction. The most plausible trigger is the external disturbance.",
+    "answer": "B",
+    "is_mcq": true,
+    "choices": [
+      "She is overwhelmed by the emotional weight of the song",
+      "She is interrupted by an external disturbance",
+      "She is uncertain how to phrase a polite request",
+      "She is addressing a technical issue with the sound equipment"
+    ]
+  },
+  "FMA/054572_hard": {
+    "wav_path": "FMA/054572.mp3",
+    "duration": 29.964580498866212,
+    "original_key": "FMA/054572",
+    "question": "What is the most likely context in which this audio was recorded? Choose the correct option from the following options:\n(A) A professional studio session for a children's album\n(B) A language learning app practicing English pronunciation\n(C) A child’s spontaneous, private rehearsal of a self-composed song\n(D) A classroom activity led by a music teacher",
+    "response": "The audio features a child’s unpolished, emotionally sincere vocal delivery with non-native English accent, irregular timing, and repetitive, fragmented lyrics, accompanied by a simple ukulele progression. The low-fidelity recording, abrupt cutoff, and absence of any instructional or audience cues suggest a private, unscripted moment. The consistent but imperfect rhythm and lack of pedagogical structure rule out formal lessons or apps. The intimacy and rawness point to personal expression, not professional production.",
+    "answer": "C",
+    "is_mcq": true,
+    "choices": [
+      "A professional studio session for a children's album",
+      "A language learning app practicing English pronunciation",
+      "A child’s spontaneous, private rehearsal of a self-composed song",
+      "A classroom activity led by a music teacher"
+    ]
+  },
+  "MELD/284_hard": {
+    "wav_path": "MELD/284.flac",
+    "duration": 9.088,
+    "original_key": "MELD/284",
+    "question": "What theme was suggested as a punchline following an absurd, theatrically delivered suggestion?",
+    "response": "After a speaker dramatically proposes 'Lusts of the flesh,' prompting laughter, she immediately follows with 'I don't know, cowboy theme,' delivering it deadpan as a comedic contrast. The audience’s renewed laughter confirms this as the punchline, not the prior phrase, which was meant to be intentionally overwrought. The cowboy theme is the actual suggested theme, framed as a joke in response to the earlier absurdity.",
+    "answer": "cowboy theme",
+    "is_mcq": false,
+    "choices": null
+  },
+  "MagnaTagATune/dj_cary-downtempo_chill_2-10-gone_lizzi-117-146_hard": {
+    "wav_path": "MagnaTagATune/dj_cary-downtempo_chill_2-10-gone_lizzi-117-146.flac",
+    "duration": 29.124,
+    "original_key": "MagnaTagATune/dj_cary-downtempo_chill_2-10-gone_lizzi-117-146",
+    "question": "What emotional trajectory is most accurately conveyed by the audio, considering both lyrical content and vocal delivery? Choose the correct option from the following options:\n(A) Quiet resignation to personal failure\n(B) Growing desperation masked by melodic restraint\n(C) Neutral reflection on past mistakes\n(D) Unbridled optimism seeking redemption",
+    "response": "The vocals begin with hesitant longing but escalate in vocal strain and urgency, especially on 'I think I need a savior,' cut off mid-phrase—suggesting unresolved tension. The minor-to-major chord shifts (C:min to Bb:maj) create emotional instability, while the breathy, strained delivery undermines any sense of calm or hope. This isn't resignation or indifference; it's a fragile, building plea. Exuberance is absent; the restraint amplifies desperation, not optimism.",
+    "answer": "B",
+    "is_mcq": true,
+    "choices": [
+      "Quiet resignation to personal failure",
+      "Growing desperation masked by melodic restraint",
+      "Neutral reflection on past mistakes",
+      "Unbridled optimism seeking redemption"
+    ]
+  },
+  "LibriSpeech/8419_293473_hard": {
+    "wav_path": "LibriSpeech/8419_293473.flac",
+    "duration": 29.69,
+    "original_key": "LibriSpeech/8419_293473",
+    "question": "Based on the narrator’s tone and phrasing, what subtle implication suggests that the walking sticks’ departure from the forest may not be primarily about family conflict?",
+    "response": "The narrator initially proposes dissatisfaction with relatives as a possible reason, but then softens this with 'but then, if one is a walking stick, you know, one does not care so very much about one's family'—delivered in a quieter, more intimate tone. This shift, paired with the follow-up about growing up without parents, implies the absence of familial bonds, not conflict, may be the true catalyst.",
+    "answer": "The walking sticks grew up without parents, suggesting their lack of familial attachment, rather than conflict, motivated their departure.",
+    "is_mcq": false,
+    "choices": null
+  }
+}

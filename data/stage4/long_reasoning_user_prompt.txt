@@ -1,0 +1,39 @@
+<audio_description>
+__AUDIO_DESCRIPTION__
+</audio_description>
+
+Answer the question below as if you are listening directly to the audio depicted by the description above.
+You may refer to that description for accuracy, but you must not explicitly mention or quote it.
+Your reasoning should appear as if it is derived solely from the audio. 
+For example, avoid statements like “The description mentions...” inside your response. 
+
+
+You will be given a previously generated chain-of-thought inside a <reasoning> block
+Continue the reasoning to solve the question accurately. You may correct any errors, incorrect assumptions, or flaws in the reasoning if they exist.
+Continue exactly from the last word of the given chain-of-thought, as if you are completing the unfinished sentence.
+
+Your continuation should:
+- follow naturally from the text already written (as if you are picking up the next sentence)
+- always extend the reasoning, even if you believe the original final answer is already correct
+- use the following cognitive behaviors when helpful:
+  - verification: systematically checking intermediate results
+  - backtracking: explicitly revising approaches when errors are detected
+  - subgoal setting: breaking a complex problem into manageable steps
+  - backward chaining: reasoning backward from a desired outcome to the initial inputs
+- optionally revise the final answer based on your improved reasoning. The answer may remain the same or change depending on the reasoning.
+- do NOT mention or refer to the description explicitly (e.g., “the description says/mentions…”); the reasoning must sound as if it comes solely from listening to the audio.
+
+Place the final answer inside <answer>...</answer> after the reasoning.  
+Use the exact format below:
+For multiple-choice questions
+- If choices include explicit letters (e.g., A, (A), (A) choice text), use ONLY the letter
+  - Format: <answer> (letter) </answer> (e.g. <answer> (B) </answer>)
+- If choices do NOT include letters, use the exact choice text.
+  - Format: <answer> choice text </answer> (e.g. <answer> Grief </answer>)
+For non-multiple-choice questions, provide a concise free-form answer
+  - Format: <answer> concise answer </answer> (e.g. <answer> To achieve political goals by violent means </answer>)
+
+<question>
+__QUESTION__
+</question>
+

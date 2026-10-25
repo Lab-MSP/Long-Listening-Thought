@@ -1,0 +1,50 @@
+# Stage A: LLT SFT of Qwen2.5-Omni-7B (thinker, full fine-tuning) with LLaMA-Factory.
+# Paper run: 8x GPU, effective batch 4 x 8 (grad accum) x 8 = 256.
+# Launch from the llt repo root (paths below are relative to it):  bash train/train_sft.sh
+
+output_dir: outputs/llt_sft_7b
+run_name: llt_sft_7b
+
+# ========= Model =========
+model_name_or_path: Qwen/Qwen2.5-Omni-7B
+template: qwen2_omni
+finetuning_type: full
+freeze_vision_tower: false
+freeze_multi_modal_projector: false
+
+# ========= Data =========
+stage: sft
+do_train: true
+dataset: [llt_sft]              # train/dataset_info.json
+dataset_dir: train
+media_dir: /path/to/afthink_audio   # audio root; audios in the SFT data are relative to it
+cutoff_len: 2048
+dataloader_num_workers: 4
+preprocessing_num_workers: 32
+preprocessing_batch_size: 500
+overwrite_cache: false
+streaming: false
+
+# ========= Training =========
+per_device_train_batch_size: 4
+gradient_accumulation_steps: 8
+learning_rate: 6.0e-6
+num_train_epochs: 5.0
+lr_scheduler_type: cosine
+warmup_ratio: 0.1
+logging_steps: 10
+save_steps: 500
+save_only_model: false
+deepspeed: train/config/ds_zero2.json
+packing: false
+compute_accuracy: true
+max_grad_norm: 1.0
+bf16: true
+gradient_checkpointing: true
+ddp_timeout: 180000000
+flash_attn: fa2
+enable_liger_kernel: true
+
+# ========= Misc =========
+report_to: wandb
+plot_loss: true

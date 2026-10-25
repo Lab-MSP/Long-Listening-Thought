@@ -1,0 +1,24 @@
+# Stage1 sound event detection (PretrainedSED / BEATs): sed_runner_full.py, filter_music_total.py
+# Exported from the conda env used for the paper ('ptsed'). Top-level packages only.
+name: llt_stage1_sed
+channels:
+  - conda-forge
+dependencies:
+  - python=3.9
+  - cython
+  - numpy=1.26.4  # sed_scores_eval setup.py imports numpy at build time
+  - pip
+  - pip:
+      - av==15.1.0
+      - h5py==3.14.0
+      - intervaltree==3.2.1
+      - nnaudio==0.3.4
+      - pytorch-lightning==2.6.0
+      - sed_scores_eval==0.0.3
+      - timm==1.0.24
+      - torchaudio==2.8.0
+      - transformers==4.57.3
+      - librosa==0.11.0
+      - pandas==2.3.3
+      - numpy==1.26.4
+      - torch==2.8.0

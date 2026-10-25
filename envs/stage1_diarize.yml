@@ -1,0 +1,11 @@
+# Stage1 speaker diarization (pyannote.audio): diarize.py
+# Exported from the conda env used for the paper ('pyannote'). Top-level packages only.
+name: llt_stage1_diarize
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  - ffmpeg
+  - pip
+  - pip:
+      - pyannote-audio==4.0.3

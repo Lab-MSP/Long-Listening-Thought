@@ -1,0 +1,23 @@
+# Stage1 music structure analysis (allin1: beats/downbeats/segments) + batched demixing
+# (data/third_party/demucs_batch). Used by data/stage1/extract_music_temporal.py.
+# Versions match the environment used for the paper (CUDA 12.1 wheels).
+#   conda env create -f envs/stage1_music.yml
+#   conda activate llt_stage1_music && pip install -e data/third_party/demucs_batch
+name: llt_stage1_music
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - cmake
+  - ffmpeg
+  - pip
+  - pip:
+      - --extra-index-url https://download.pytorch.org/whl/cu121
+      - --find-links https://shi-labs.com/natten/wheels/cu121/torch2.5.0/
+      - torch==2.5.0
+      - torchaudio==2.5.0
+      - torchvision==0.20.0
+      - natten==0.17.4+torch250cu121
+      - cython
+      - git+https://github.com/CPJKU/madmom@27f032e8947204902c675e5e341a3faf5dc86dae
+      - allin1==1.1.0

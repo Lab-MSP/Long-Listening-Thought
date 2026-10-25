@@ -1,0 +1,10 @@
+{
+  "llt_sft": {
+    "file_name": "../workdir/llt_sft_sharegpt.jsonl",
+    "formatting": "sharegpt",
+    "columns": {
+      "messages": "conversations",
+      "audios": "audios"
+    }
+  }
+}

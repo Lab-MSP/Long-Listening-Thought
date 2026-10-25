@@ -1,0 +1,252 @@
+{
+  "YouTube8M/4Bftz5jhHFY_23_10": {
+    "wav_path": "YouTube8M/4Bftz5jhHFY_23_10.mp3",
+    "duration": 10.0,
+    "question": "In what setting might this combination of a woman's voice and instrumental music with cymbal percussion be heard? Choose one among the following options:\n(A) busy street\n(B) cooking show\n(C) concert hall\n(D) construction site\nPlease think and reason about the input audio before you respond.",
+    "response": "Based on the presence of clear spoken instructions (including a word related to food, \"Eischniheben\") accompanied by instrumental music featuring light percussion, this audio combination is highly characteristic of a cooking show setting where a host is explaining steps with background music. Therefore, the most likely setting is: **(B) cooking show**",
+    "answer": "B",
+    "is_mcq": true,
+    "choices": [
+      "(A) busy street",
+      "(B) cooking show",
+      "(C) concert hall",
+      "(D) construction site"
+    ]
+  },
+  "YouTube8M/rQj-Y6635ts_116_10": {
+    "wav_path": "YouTube8M/rQj-Y6635ts_116_10.mp3",
+    "duration": 10.0,
+    "question": "What type of musical element accompanies the vocals in the audio? Choose one among the following options:\n(A) Orchestral strings\n(B) Piano melody\n(C) Electronic beats\n(D) Acoustic guitar\nPlease think and reason about the input music before you respond.",
+    "response": "Based on the synthesized rhythmic elements and pulsating textures accompanying the vocals in the audio clip, the musical element is best described as: **(C) Electronic beats**",
+    "answer": "C",
+    "is_mcq": true,
+    "choices": [
+      "(A) Orchestral strings",
+      "(B) Piano melody",
+      "(C) Electronic beats",
+      "(D) Acoustic guitar"
+    ]
+  },
+  "YouTube8M/CTiJe66fIr8_27_10": {
+    "wav_path": "YouTube8M/CTiJe66fIr8_27_10.mp3",
+    "duration": 10.0,
+    "question": "What kind of event is likely depicted by the combination of lively rock music and a powerful car engine? Choose one among the following options:\n(A) A street parade\n(B) A sports interview\n(C) A concert\n(D) A car race\nPlease think and reason about the input audio before you respond.",
+    "response": "Based on the combination of lively, high-energy music and the distinct sound of a powerful car engine accelerating and revving, the event most likely depicted is: **(D) A car race**",
+    "answer": "D",
+    "is_mcq": true,
+    "choices": [
+      "(A) A street parade",
+      "(B) A sports interview",
+      "(C) A concert",
+      "(D) A car race"
+    ]
+  },
+  "YouTube8M/dLjXsctwJi0_86_10": {
+    "wav_path": "YouTube8M/dLjXsctwJi0_86_10.mp3",
+    "duration": 10.0,
+    "question": "What can be deduced about the environment and purpose of the speaker's message based on the audio elements and speech content?\nPlease think and reason about the input music before you respond.",
+    "response": "Based on the speaker's description of an \"interactive way to reinforce letter recognition for kids two and up\" with \"touch points\" and \"different ways to play,\" the message's purpose is clearly educational and aimed at teaching young children. The speaker's voice having a slight echo, combined with subtle background ambient noise, suggests the environment is likely a space designed for children's activities, such as a classroom or learning area, rather than a quiet, controlled recording environment.",
+    "answer": "The environment is likely a space designed for children's activities, such as a classroom or learning area, and the purpose is educational, aimed at teaching young children.",
+    "is_mcq": false,
+    "choices": null
+  },
+  "YouTube8M/yNnjVhJ_PI0_91_10": {
+    "wav_path": "YouTube8M/yNnjVhJ_PI0_91_10.mp3",
+    "duration": 10.0,
+    "question": "Based on the audio, what type of environment is likely being described? Choose one among the following options:\n(A) Quiet countryside\n(B) Coastal beach\n(C) Forest trail\n(D) Urban cityscape\nPlease think and reason about the input music before you respond.",
+    "response": "The audio contains sounds of speech and background noise that clearly indicate an urban setting, likely with traffic and general city activity. The absence of sounds associated with nature (birds, waves, wind in trees) or quiet open spaces rules out options (A), (B), and (C). The final answer is (D) Urban cityscape",
+    "answer": "D",
+    "is_mcq": true,
+    "choices": [
+      "(A) Quiet countryside",
+      "(B) Coastal beach",
+      "(C) Forest trail",
+      "(D) Urban cityscape"
+    ]
+  },
+  "YouTube8M/QfPffMWqo4g_35_10": {
+    "wav_path": "YouTube8M/QfPffMWqo4g_35_10.mp3",
+    "duration": 10.0,
+    "question": "Based on the audio, what type of environment is likely represented? Choose one among the following options:\n(A) A natural forest\n(B) A bustling street market\n(C) A residential home\n(D) A commercial or industrial building\nPlease think and reason about the input audio before you respond.",
+    "response": "The audio primarily features sounds of machinery and mechanical operation. These types of sounds are not typically found in natural forests, bustling street markets, or residential homes, but are highly characteristic of commercial or industrial environments where equipment and mechanical processes are common. The final answer is (D) A commercial or industrial building",
+    "answer": "D",
+    "is_mcq": true,
+    "choices": [
+      "(A) A natural forest",
+      "(B) A bustling street market",
+      "(C) A residential home",
+      "(D) A commercial or industrial building"
+    ]
+  },
+  "YouTube8M/XEXkjUxY1lQ_102_10": {
+    "wav_path": "YouTube8M/XEXkjUxY1lQ_102_10.mp3",
+    "duration": 10.0,
+    "question": "Which setting could best match the combination of classical music and weather sounds in this audio? Choose one among the following options:\n(A) A beach on a sunny day\n(B) A quiet library\n(C) A busy city street\n(D) A concert hall during a storm\nPlease think and reason about the input music before you respond.",
+    "response": "Based on the presence of classical music (a low, sustained string note) combined with distinct weather sounds like wind and a low rumble suggestive of a storm, the setting that best integrates these elements is: **(D) A concert hall during a storm**",
+    "answer": "D",
+    "is_mcq": true,
+    "choices": [
+      "(A) A beach on a sunny day",
+      "(B) A quiet library",
+      "(C) A busy city street",
+      "(D) A concert hall during a storm"
+    ]
+  },
+  "YouTube8M/DimqZLZMIyg_103_10": {
+    "wav_path": "YouTube8M/DimqZLZMIyg_103_10.mp3",
+    "duration": 10.0,
+    "question": "In which scenario might you hear a combination of motorcycle sounds, male encouragement, and cymbal taps? Choose one among the following options:\n(A) music concert\n(B) busy marketplace\n(C) camping site\n(D) motorcycle race\nPlease think and reason about the input music before you respond.",
+    "response": "Based on the presence of motorcycle sounds, male encouragement, and cymbal taps, a scenario where these elements would likely converge is a: **(D) motorcycle race**",
+    "answer": "D",
+    "is_mcq": true,
+    "choices": [
+      "(A) music concert",
+      "(B) busy marketplace",
+      "(C) camping site",
+      "(D) motorcycle race"
+    ]
+  },
+  "AudioSet/Yeb0BMDTEwnU": {
+    "wav_path": "AudioSet/Yeb0BMDTEwnU.flac",
+    "duration": 10.0,
+    "question": "What can be deduced about the woman's emotional state and the context she is in based on her exclamation and the surrounding sounds?\nPlease think and reason about the input audio before you respond.",
+    "response": "Based on the woman's startled exclamation \"Oh my God\" occurring alongside distinct sounds like laughter, lively music, and a sudden pop or burst, it can be inferred that she is reacting to a surprising or unexpected event within a festive or joyful environment. The context is likely a celebration or gathering where sudden noises or actions (like popping balloons or party poppers) are common and can elicit such reactions, suggesting her emotion is likely surprise or startle rather than distress or genuine fear.",
+    "answer": "She is reacting to a surprising or unexpected event within a festive or joyful environment. The context is likely a celebration or gathering where sudden noises or actions (like popping balloons or party poppers) are common and can elicit such reactions, suggesting her emotion is likely surprise or startle rather than distress or genuine fear.",
+    "is_mcq": false,
+    "choices": null
+  },
+  "AudioSet/YNp9pfK_DHFQ": {
+    "wav_path": "AudioSet/YNp9pfK_DHFQ.flac",
+    "duration": 10.0,
+    "question": "What is the primary purpose of the vocalizations? Choose the correct option from the following options:\n(A) Linguistic communication\n(B) Rhythmic performance\n(C) Emotional expression\n(D) Background noise\nPlease think and reason about the input audio before you respond.",
+    "response": "The extensive repetition of sounds suggests a rhythmic or percussive quality, indicating a performance rather than standard communication. The presence of speech is unlikely as it is simply a repetition of syllables. Therefore, the answer is (B) Rhythmic performance.",
+    "answer": "B",
+    "is_mcq": true,
+    "choices": [
+      "(A) Linguistic communication",
+      "(B) Rhythmic performance",
+      "(C) Emotional expression",
+      "(D) Background noise"
+    ]
+  },
+  "AudioSet/YE2dJrPjrNUI": {
+    "wav_path": "AudioSet/YE2dJrPjrNUI.flac",
+    "duration": 10.0,
+    "question": "Considering the speaker's tone and the background audio, what can be deduced about his feelings towards the trip?\nPlease think and reason about the input audio before you respond.",
+    "response": "The speaker uses the phrase \"get ready to get your beach on,\" which is typically associated with excitement for a trip. However, his tone is slightly mocking or sarcastic, and he immediately follows it by saying \"I know nobody says that. I know that,\" explicitly dismissing the phrase. This contradiction between the phrase and his delivery strongly suggests a lack of genuine enthusiasm or even reluctance towards the described beach trip.",
+    "answer": "a lack of genuine enthusiasm or even reluctance towards the described beach trip",
+    "is_mcq": false,
+    "choices": null
+  },
+  "AudioSet/YXXWMijifys4": {
+    "wav_path": "AudioSet/YXXWMijifys4.flac",
+    "duration": 10.0,
+    "question": "Given the acoustic environment, what is the primary scenario? Choose the correct option from the following options:\n(A) Indoor conference\n(B) Outdoor registration\n(C) Studio recording\n(D) Medical examination\nPlease think and reason about the input audio before you respond.",
+    "response": "The presence of wind noise and gentle music, combined with a fearful inquiry about a 'bed number', suggests an outdoor setting, possibly related to a temporary or emergency setup. This implies that the outdoor environment with registration is correct. Thus the correct answer is (B).",
+    "answer": "B",
+    "is_mcq": true,
+    "choices": [
+      "(A) Indoor conference",
+      "(B) Outdoor registration",
+      "(C) Studio recording",
+      "(D) Medical examination"
+    ]
+  },
+  "VGG/QgulXVz9o2Q_000017": {
+    "wav_path": "VGG/QgulXVz9o2Q_000017.flac",
+    "duration": 10.004807256235827,
+    "question": "What is suggested by the blend of speech and music? Choose the correct option from the following options:\n(A) Solo guitar performance preparation\n(B) Impromptu musical request\n(C) Urgent escape during live performance\n(D) Relaxed backstage conversation\nPlease think and reason about the input audio before you respond.",
+    "response": "The combination of fearful speech about getting a head start amidst a live musical performance suggests a potential emergency or unplanned situation within the performance context. This eliminates options (A), (B), and (D) as they imply planned or casual scenarios. Therefore, the answer is: (C) Urgent escape during live performance.",
+    "answer": "C",
+    "is_mcq": true,
+    "choices": [
+      "(A) Solo guitar performance preparation",
+      "(B) Impromptu musical request",
+      "(C) Urgent escape during live performance",
+      "(D) Relaxed backstage conversation"
+    ]
+  },
+  "Freesound/468312": {
+    "wav_path": "Freesound/468312.flac",
+    "duration": 19.0,
+    "question": "What feeling might the audio evoke? Choose the correct option from the following options:\n(A) Triumph\n(B) Regret\n(C) Curiosity\n(D) Excitement\nPlease think and reason about the input audio before you respond.",
+    "response": "The combination of a young, sad voice saying 'Thanks for watching!' coupled with the sound of a coin falling into water creates a sense of finality and loss.  This suggests the speaker might be concluding something with a feeling of sadness or disappointment. Therefore, the best answer is: (B) Regret.",
+    "answer": "B",
+    "is_mcq": true,
+    "choices": [
+      "(A) Triumph",
+      "(B) Regret",
+      "(C) Curiosity",
+      "(D) Excitement"
+    ]
+  },
+  "DailyTalk/2125": {
+    "wav_path": "DailyTalk/2125.flac",
+    "duration": 13.261020408163265,
+    "question": "From the input spoken conversation, summarize the key feelings expressed.\nPlease think and reason about the input audio before you respond.",
+    "response": "Based on the conversation, John expresses a feeling of disappointment because he was unable to see his best friend off. The other participant acknowledges this feeling and provides reassurance by suggesting that the friend will understand the situation. This exchange highlights John's disappointment being met with empathy and encouragement.",
+    "answer": "John expresses a feeling of disappointment because he was unable to see his best friend off. The other participant acknowledges this feeling and provides reassurance by suggesting that the friend will understand the situation. This exchange highlights John's disappointment being met with empathy and encouragement.",
+    "is_mcq": false,
+    "choices": null
+  },
+  "CochlScene/Restaurant_user0786_14879773_003": {
+    "wav_path": "CochlScene/Restaurant_user0786_14879773_003.flac",
+    "duration": 10.0,
+    "question": "What is the likely emotion influencing the speaker's apology? Choose the correct option from the following options:\n(A) Confusion\n(B) Sympathy\n(C) Fear\n(D) Disgust\nPlease think and reason about the input audio before you respond.",
+    "response": "The speech characteristics indicate a fearful mood. The speaker apologizes within the context of a bustling restaurant and the fearful tone strongly suggests that her apology is influenced by: (C) Fear",
+    "answer": "C",
+    "is_mcq": true,
+    "choices": [
+      "(A) Confusion",
+      "(B) Sympathy",
+      "(C) Fear",
+      "(D) Disgust"
+    ]
+  },
+  "FMA/054572": {
+    "wav_path": "FMA/054572.mp3",
+    "duration": 29.964580498866212,
+    "question": "What is the likely purpose of this audio? Choose the correct option from the following options:\n(A) A political speech\n(B) A musical performance\n(C) A language lesson\n(D) A therapeutic exercise\nPlease think and reason about the input audio before you respond.",
+    "response": "The audio features a repeated phrase in English, spoken with a melancholic tone, combined with background Latin American music. Given the emotion and musical context, it suggests an artistic expression. Therefore, the answer is: (B) A musical performance.",
+    "answer": "B",
+    "is_mcq": true,
+    "choices": [
+      "(A) A political speech",
+      "(B) A musical performance",
+      "(C) A language lesson",
+      "(D) A therapeutic exercise"
+    ]
+  },
+  "MELD/284": {
+    "wav_path": "MELD/284.flac",
+    "duration": 9.088,
+    "question": "What theme did one speaker suggest in the conversation?\nPlease think and reason about the input audio before you respond.",
+    "response": "The conversation in the audio segment explores options for a theme. After an initial suggestion and a reaction to it, one speaker is heard saying, \"I don't know, cowboy theme?\" This explicitly proposes the cowboy theme, directly answering the question about a theme suggested by one of the speakers.",
+    "answer": "cowboy theme",
+    "is_mcq": false,
+    "choices": null
+  },
+  "MagnaTagATune/dj_cary-downtempo_chill_2-10-gone_lizzi-117-146": {
+    "wav_path": "MagnaTagATune/dj_cary-downtempo_chill_2-10-gone_lizzi-117-146.flac",
+    "duration": 29.124,
+    "question": "What emotional state is most reflected by the audio? Choose the correct option from the following options:\n(A) Resignation\n(B) Aspiration\n(C) Indifference\n(D) Exuberance\nPlease think and reason about the input audio before you respond.",
+    "response": "Considering the expression of wanting to do better and needing an angel, the audio reflects a desire for improvement and assistance, rather than acceptance, neutrality, or joy. Therefore, the answer is (B) Aspiration.",
+    "answer": "B",
+    "is_mcq": true,
+    "choices": [
+      "(A) Resignation",
+      "(B) Aspiration",
+      "(C) Indifference",
+      "(D) Exuberance"
+    ]
+  },
+  "LibriSpeech/8419_293473": {
+    "wav_path": "LibriSpeech/8419_293473.flac",
+    "duration": 29.69,
+    "question": "What might be a possible reason for the walking sticks to leave their original home in the forest?\nPlease think and reason about the input music before you respond.",
+    "response": "Based on the narration in the audio, while the exact reason for the walking sticks leaving the forest is unknown, a possibility is suggested. The audio states, \"Perhaps they were not happy with their relatives\" (00:15-00:17). This implies that a potential motive for their departure could have been dissatisfaction or some form of unhappiness related to their family or social dynamics within their original home.",
+    "answer": "a potential motive for their departure could have been dissatisfaction or some form of unhappiness related to their family or social dynamics within their original home",
+    "is_mcq": false,
+    "choices": null
+  }
+}

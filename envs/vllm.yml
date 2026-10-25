@@ -1,0 +1,29 @@
+# Main environment: vLLM servers/clients for data stages 1-4 (Qwen3 LLM / VL / Omni-Captioner),
+# faster-whisper ASR, spectrograms, Qwen2.5-Omni inference and MMAR/MMAU/MMSU evaluation.
+# Versions match the environment used for the paper.
+name: llt_vllm
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  - ffmpeg
+  - pip
+  - pip:
+      - vllm==0.13.0
+      - transformers==4.57.3
+      - qwen-omni-utils==0.0.8
+      - flash_attn==2.8.3
+      - openai==2.14.0
+      - faster-whisper==1.2.1
+      - av==15.1.0  # faster-whisper 1.2.1 passes metadata_errors to av.open (removed in av 16)
+      - librosa==0.11.0
+      - soundfile==0.13.1
+      - matplotlib==3.10.8
+      - pandas==2.3.3
+      - numpy==2.2.6
+      - json_repair==0.61.3
+      - ffmpeg-python==0.2.0
+      - resampy==0.4.3
+      - huggingface-hub==0.36.0
+      - gdown==5.2.1
+      - tqdm

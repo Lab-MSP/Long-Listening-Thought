@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+
+# Audio / archives
+*.wav
+*.mp3
+*.flac
+*.tar.gz
+
+# Logs
+*.log
+**/logs/
+**/*errors.txt
+wandb/
+
+# LLT pipeline outputs (intermediate data, checkpoints, eval results)
+workdir/
+outputs/
+eval/results/
+eval/MMAR/audio/
+eval/MMAU/test-mini-audios/
+eval/MMSU/audio/
+
+# Local
+.env
+.claude/
+
+# Official scorers fetched by eval/fetch_scorers.sh
+eval/MMAR/code/evaluation.py
+eval/MMSU/code/mmsu_evaluation.py
